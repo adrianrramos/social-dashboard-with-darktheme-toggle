@@ -1,0 +1,116 @@
+* {
+    /* border: .5px solid black; */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#bg-boxes-container {
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-stats-box {
+    width: 15vw;
+    height: 13vw;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.facebook-color {
+    background-color: hsl(195, 100%, 50%);
+}
+
+.twitter-color {
+    background-color: hsl(203, 89%, 53%);
+}
+.instagram-color {
+    background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+.youtube-color {
+    background-color: hsl(348, 97%, 39%);
+}
+/* 
+NEED THE FOLLOWING COLORS:
+- TWITTER
+- INSTAGRAM
+- YOUTUBE 
+- Twitter: hsl(203, 89%, 53%)
+- Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
+- YouTube: hsl(348, 97%, 39%)
+
+*/
+
+.color-trim {
+    height: 2.5%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile-name {
+    margin-top: 1vw;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.nickname {
+    font-size: .75vw;
+    margin-left: .5vw;
+}
+
+.follower-count {
+    margin-top: -2vw;
+    padding-top: -10vw;
+    text-align: center;
+    font-size: 1.75vw;
+}
+
+.followers-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.followers-label {
+    margin-top: -2.5vw;
+    font-weight: 300;
+    font-size: .9vw;
+    letter-spacing: .25vw;
+}
+
+.daily-margin {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticker-icon {
+    width: .75vw;
+    margin-right: .25vw;
+}
+
+.margin-ticker {
+    font-size: .75vw;
+    font-weight: 700;
+}
+
+.green {
+    color: hsl(163, 72%, 41%);
+}
+
+.red {
+    color: hsl(356, 69%, 56%);
+}
