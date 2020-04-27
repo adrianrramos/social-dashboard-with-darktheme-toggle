@@ -1,0 +1,42 @@
+#sm-boxes-container {
+    margin: 1.5vw auto;
+    width: 65%;
+    height: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm-stats-box {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 3px;
+}
+
+.sm-half {
+    margin: 0 10px 0 10px;
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data-point-name {
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.bottom {
+    margin-top: -.6vw;
+}
+
+.sm-total-number {
+    font-size: 2vw;
+}
+
+.sm-daily-margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

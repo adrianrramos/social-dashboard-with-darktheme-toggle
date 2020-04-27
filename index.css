@@ -4,9 +4,18 @@
 @import "./styles/colorClasses.css";
 
 * {
-    border: .5px solid black;
+    /* border: .5px solid black; */
 }
 
 body {
     font-family: 'Inter', sans-serif;
+}
+
+.attribution {
+    text-align: center;
+    font-size: .75vw;
+}
+
+a {
+    color: inherit;
 }
