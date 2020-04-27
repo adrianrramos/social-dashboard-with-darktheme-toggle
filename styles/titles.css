@@ -1,0 +1,64 @@
+.heading {
+    margin: 0 auto;
+    width: 65%;
+}
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-title {
+    font-size: 2vw;
+    color: hsl(230, 17%, 14%);
+}
+
+#toggle-container {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#darkmode-label {
+    font-size: 1vw;
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+}
+
+#toggle-border {
+    width: 3.5vw;
+    height: 1.6vw;
+    background-color: hsl(230, 22%, 74%);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.toggle-on {
+    justify-content: flex-end;
+}
+
+input {
+    border-radius: 50%;
+    background-color: hsl(227, 47%, 96%);
+    border: none;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+#main-subtitle {
+    margin: -2.2vw auto 2.25vw auto;
+    font-size: .9vw;
+    font-weight: 700;
+    color: hsl(228, 12%, 44%);
+}
+
+#overview-title {
+    padding-top: 1.2vw;
+    color: hsl(228, 12%, 44%);
+}
