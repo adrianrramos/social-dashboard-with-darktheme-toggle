@@ -1,12 +1,8 @@
+@import "./styles/titles.css";
 @import "./styles/bigStatsBox.css";
 @import "./styles/smallStatsBox.css";
-@import "./styles/titles.css";
-
+@import "./styles/darkmodeToggles.css";
 @import "./styles/colorClasses.css";
-
-* {
-    /* border: .5px solid black; */
-}
 
 body {
     font-family: 'Inter', sans-serif;

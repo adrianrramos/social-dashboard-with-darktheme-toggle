@@ -42,6 +42,7 @@
 .nickname {
     font-size: .75vw;
     margin-left: .5vw;
+    color: hsl(228, 12%, 44%);
 }
 
 .follower-count {

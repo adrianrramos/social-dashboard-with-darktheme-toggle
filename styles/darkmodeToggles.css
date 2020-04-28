@@ -1,0 +1,23 @@
+.boxes-dark-bg-color {
+    background-color: hsl(228, 28%, 20%) !important;
+}
+
+.boxes-dark-bg-color:hover {
+    background-color: hsl(228, 28%, 25%) !important;
+}
+
+.white-text {
+    color: white !important;
+}
+
+.blue-text {
+    color: hsl(228, 34%, 66%) !important;
+}
+
+.dark-body {
+    background-color: hsl(230, 17%, 14%);
+}
+
+.dark-toggle {
+    background-color: linear-gradient(to left, hsl(210, 78%, 56%), hsl(146, 68%, 55%)) !important;
+}

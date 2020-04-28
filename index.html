@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
-
+  <script src="https://kit.fontawesome.com/2876fe37bc.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Social Dashboard</title>
 </head>
@@ -20,7 +20,8 @@
         Dark Mode
       </label>
       <div id="toggle-border" class="toggle-on">
-          <input type="button" id="darkmode-toggle" onclick=toggleButtonPosition()>
+        <!-- <button type="button" id="darkmode-toggle" onclick=toggleButtonPosition()> -->
+        <i class="fas fa-adjust white-text" id="darkmode-toggle" onclick=toggleButtonPosition()></i>
       </div>
     </div>
   </div>
@@ -305,9 +306,11 @@
     Coded by <a href="https://github.com/ramos-codes/social-dashboard-with-darktheme-toggle">Adrian Ramos</a>.
   </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
 <script>
   document.getElementById('darkmode-toggle').addEventListener('click', () => {
     document.getElementById('toggle-border').classList.toggle('toggle-on');
   });
 </script>
+<script src="./toggleDarkmode.js"></script>
 </html>

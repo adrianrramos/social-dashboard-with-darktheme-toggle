@@ -27,7 +27,7 @@
 }
 
 #toggle-border {
-    width: 3.5vw;
+    width: 3vw;
     height: 1.6vw;
     background-color: hsl(230, 22%, 74%);
     display: flex;
@@ -39,17 +39,14 @@
 
 .toggle-on {
     justify-content: flex-end;
+    transition-duration: 10s;
+    transition-delay: 5s;
 }
 
-input {
-    border-radius: 50%;
-    background-color: hsl(227, 47%, 96%);
-    border: none;
-}
-
-input:hover {
+i:hover {
     cursor: pointer;
 }
+
 
 #main-subtitle {
     margin: -2.2vw auto 2.25vw auto;
@@ -60,5 +57,6 @@ input:hover {
 
 #overview-title {
     padding-top: 1.2vw;
+    font-size: 1.75vw;
     color: hsl(228, 12%, 44%);
 }
